@@ -1,0 +1,8 @@
+
+<table>
+   <tr>
+      <th class="header-row" colspan="2">Satellite Counts: {{satellites.length}}</th>
+   </tr>
+
+   <tr *ngFor="let entry of counts"><td>{{entry}}</td><td>{{countOf(entry)}}</td></tr>
+</table>
